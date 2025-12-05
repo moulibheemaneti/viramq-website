@@ -1,17 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-   compatibilityDate: '2025-07-15',
-
+   compatibilityDate: '2025-12-05',
    devtools: { enabled: true },
-
    ssr: false,
-   nitro: {
-      preset: 'github-pages'
-   },
    app: {
-      baseURL: "/viraq-website",
       head: {
-         title: "ViraQ",
+         title: "ViramQ",
          link: [
             { rel: "preconnect", href: "https://fonts.googleapis.com" },
             { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
@@ -19,7 +13,7 @@ export default defineNuxtConfig({
          ],
          meta: [
             { name: "viewport", content: "width=device-width, initial-scale=1" },
-            { name: "description", content: "ViraQ - Your app description here" },
+            { name: "description", content: "ViramQ - Pause. Breathe. Recharge." },
             { name: "theme-color", content: "#021516" },
          ],
       }

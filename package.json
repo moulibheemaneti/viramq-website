@@ -1,17 +1,17 @@
 {
-   "name": "variq-website",
-   "version": "0.0.1",
+   "name": "viramq-website",
+   "version": "0.1.0",
    "description": "A digital wellness reminder website",
    "author": "Mouli Bheemaneti <moulibheemaneti@gmail.com> (https://moulibheemaneti.com/)",
    "keywords": [
-      "variq",
+      "viramq",
       "digital wellness",
       "reminder website"
    ],
-   "homepage": "https://github.com/moulibheemaneti/viraq-website",
+   "homepage": "https://github.com/moulibheemaneti/viramq-website",
    "repository": {
       "type": "git",
-      "url": "https://github.com/moulibheemaneti/viraq-website.git"
+      "url": "https://github.com/moulibheemaneti/viramq-website.git"
    },
    "engines": {
       "node": ">=22.19.0"
@@ -27,12 +27,12 @@
       "postinstall": "nuxt prepare"
    },
    "dependencies": {
-      "nuxt": "^4.0.3",
-      "vue": "^3.5.20",
-      "vue-router": "^4.5.1"
+      "nuxt": "^4.2.1",
+      "vue": "^3.5.25",
+      "vue-router": "^4.6.3"
    },
    "devDependencies": {
-      "sass": "^1.91.0"
+      "sass": "^1.94.2"
    },
-   "packageManager": "yarn@4.9.4"
+   "packageManager": "yarn@4.12.0"
 }
