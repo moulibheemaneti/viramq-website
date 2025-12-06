@@ -14,7 +14,7 @@
       "url": "https://github.com/moulibheemaneti/viramq-website.git"
    },
    "engines": {
-      "node": ">=22.19.0"
+      "node": ">=24.11.1"
    },
    "type": "module",
    "displayName": "ViramQ",
