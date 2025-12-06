@@ -1,4 +1,4 @@
-# ViraQ
+# ViramQ
 
 <img src="app/assets/logo.svg">
 

@@ -26,3 +26,66 @@ body {
    background-repeat: no-repeat;
    color: white;
 }
+
+.section {
+   flex-direction: column;
+   margin-top: px-to-rem(24);
+   padding: 0 px-to-rem(16);
+
+   @include tablet-up {
+      margin-top: px-to-rem(32);
+      padding: 0;
+   }
+
+   &,
+   &__buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+
+   &__title {
+      font-size: px-to-rem(32);
+      font-weight: 600;
+      line-height: 1;
+      margin-bottom: px-to-rem(16);
+
+      @include tablet-up {
+         font-size: px-to-rem(36);
+         margin-bottom: px-to-rem(24);
+      }
+
+      @include desktop-up {
+         font-size: px-to-rem(40);
+      }
+
+      &>span {
+         font-size: inherit;
+         line-height: inherit;
+         font-weight: inherit;
+         color: #F5F0BB;
+      }
+   }
+
+   &__description {
+      font-size: px-to-rem(16);
+      font-weight: 300;
+      margin-bottom: px-to-rem(32);
+
+      @include tablet-up {
+         font-size: px-to-rem(18);
+      }
+
+      @include desktop-up {
+         font-size: px-to-rem(20);
+      }
+   }
+
+   &__buttons {
+      gap: px-to-rem(16);
+
+      @include tablet-up {
+         gap: px-to-rem(24);
+      }
+   }
+}

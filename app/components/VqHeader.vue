@@ -34,24 +34,60 @@ const navItems = [
    }
 ];
 
-const activeNavItem = ref(navItems[0]?.id ?? 1);
+const activeNavItem = ref();
+
+const route = useRoute();
+const router = useRouter();
 
 // Intersection Observer for scroll-based highlighting
 let observer: IntersectionObserver | null = null;
 
+watch(() => route.path, () => {
+
+   if (route.path !== "/") {
+      activeNavItem.value = null;
+   }
+
+});
+
 const handleNavClick = (item: typeof navItems[number]) => {
+
+   if (item.href === "home") {
+
+      if (route.path !== "/") {
+         navigateTo("/");
+      }
+
+      window.scrollTo({
+         top: item.href === "home"
+            ? 0
+            : (document.getElementById(item.href)?.offsetTop ?? 0) - 80,
+         behavior: "smooth"
+      });
+
+      return;
+   }
+
    activeNavItem.value = item.id;
 
-   window.scrollTo({
-      top: item.href === "home"
-         ? 0
-         : (document.getElementById(item.href)?.offsetTop ?? 0) - 80,
-      behavior: "smooth"
+   router.push("/").then(() => {
+      window.scrollTo({
+         top: item.href === "home"
+            ? 0
+            : (document.getElementById(item.href)?.offsetTop ?? 0) - 80,
+         behavior: "smooth"
+      });
    });
 };
 
 // Setup intersection observer to track which section is visible
 onMounted(() => {
+   const item = navItems.find(item => item.href === route.path);
+
+   if (item) {
+      activeNavItem.value = item.id;
+   }
+
    const options = {
       root: null,
       rootMargin: '-20% 0px -70% 0px', // Trigger when section is 20% from top and 70% from bottom

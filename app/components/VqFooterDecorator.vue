@@ -1,6 +1,6 @@
 <template>
    <div class="vq-footer-decorator">
-      <p>ViraQ</p>
+      <p>ViramQ</p>
       <div class="vq-footer-decorator__overlay" />
    </div>
 </template>
