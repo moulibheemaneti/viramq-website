@@ -1,4 +1,5 @@
 <template>
+   <Analytics />
    <vq-header />
 
    <main class="main">
@@ -9,6 +10,11 @@
 
    <vq-footer-decorator />
 </template>
+
+<script lang="ts" setup>
+import { Analytics } from '@vercel/analytics/nuxt'
+
+</script>
 
 <style lang="scss">
 .main {

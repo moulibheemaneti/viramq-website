@@ -2267,6 +2267,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vercel/analytics@npm:^1.6.1":
+  version: 1.6.1
+  resolution: "@vercel/analytics@npm:1.6.1"
+  peerDependencies:
+    "@remix-run/react": ^2
+    "@sveltejs/kit": ^1 || ^2
+    next: ">= 13"
+    react: ^18 || ^19 || ^19.0.0-rc
+    svelte: ">= 4"
+    vue: ^3
+    vue-router: ^4
+  peerDependenciesMeta:
+    "@remix-run/react":
+      optional: true
+    "@sveltejs/kit":
+      optional: true
+    next:
+      optional: true
+    react:
+      optional: true
+    svelte:
+      optional: true
+    vue:
+      optional: true
+    vue-router:
+      optional: true
+  checksum: 10c0/df39ec419299b43350ad80a06fe835502f22f71c32d21d58855ac39ef352d3478b8922e44375dbc5b0c02ceae04a9d23b32579eb517a602656f6460c90f5802a
+  languageName: node
+  linkType: hard
+
 "@vercel/nft@npm:^0.30.3":
   version: 0.30.4
   resolution: "@vercel/nft@npm:0.30.4"
@@ -9199,6 +9229,7 @@ __metadata:
   resolution: "viramq-website@workspace:."
   dependencies:
     "@nuxt/content": "npm:^3.9.0"
+    "@vercel/analytics": "npm:^1.6.1"
     better-sqlite3: "npm:^12.5.0"
     nuxt: "npm:^4.2.1"
     sass: "npm:^1.94.2"
