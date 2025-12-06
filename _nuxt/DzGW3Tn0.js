@@ -1,1 +1,0 @@
-import{H as o,c as r,o as s,s as n}from"./BYTmesD9.js";const t={};function c(e,a){return s(),r("strong",null,[n(e.$slots,"default")])}const _=Object.assign(o(t,[["render",c]]),{__name:"ProseStrong"});export{_ as default};
