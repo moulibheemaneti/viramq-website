@@ -1,0 +1,1 @@
+import{H as s,c as o,o as r,s as n}from"./BkM-kKX3.js";const t={};function c(e,a){return r(),o("em",null,[n(e.$slots,"default")])}const _=Object.assign(s(t,[["render",c]]),{__name:"ProseEm"});export{_ as default};

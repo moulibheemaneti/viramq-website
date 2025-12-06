@@ -1,1 +1,0 @@
-import{H as s,c as o,o as r,s as n}from"./Dxfo780f.js";const t={};function c(e,a){return r(),o("ul",null,[n(e.$slots,"default")])}const _=Object.assign(s(t,[["render",c]]),{__name:"ProseUl"});export{_ as default};
