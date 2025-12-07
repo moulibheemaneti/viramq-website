@@ -58,6 +58,8 @@ const handleNavClick = (item: typeof navItems[number]) => {
          navigateTo("/");
       }
 
+      activeNavItem.value = item.id;
+
       window.scrollTo({
          top: item.href === "home"
             ? 0

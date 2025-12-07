@@ -18,6 +18,12 @@
    user-select: none;
 }
 
+#__nuxt {
+   min-height: 100dvh;
+   display: flex;
+   flex-direction: column;
+}
+
 body {
    background-color: #021516;
    background-image: url("@/assets/images/background.svg");
