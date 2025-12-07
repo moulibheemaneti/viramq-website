@@ -18,6 +18,7 @@ import { Analytics } from '@vercel/analytics/nuxt'
 
 <style lang="scss">
 .main {
+   flex: 1;
    max-width: px-to-rem(800);
    display: flex;
    flex-direction: column;

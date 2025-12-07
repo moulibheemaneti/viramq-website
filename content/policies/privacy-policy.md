@@ -6,83 +6,69 @@ lang: en
 
 # Privacy Policy
 
-**Last Updated: January 1, 2025**
+**Last Updated: 7th December 2025**
 
 ## Introduction
 
-Welcome to ViramQ. Your privacy is important to us. This Privacy Policy outlines what information we collect, how we use it, and your rights when interacting with the ViramQ platform.
+Welcome to ViramQ. Your privacy is very important to us. This Privacy Policy explains what information we collect, how we use it, and what rights you have when using ViramQ.
 
 ## About ViramQ
 
-ViramQ is a website that displays slokas (devotional verses) in multiple languages for users to read and explore. ViramQ does **not** require users to register, create accounts, or provide any personal information to access the site’s main features.
+ViramQ is more than just a break reminder—it’s a companion for digital well-being. Inspired by the Sanskrit word "Virama" (विराम), meaning pause or rest, and combined with "Q" for cue or reminder, ViramQ helps you build healthier habits through mindful breaks and timely reminders. With ViramQ, you can set intervals for breaks, hydration, and breathing, or follow guided suggestions for relaxation and meditation. You remain in control: ViramQ does **not** require you to register, create accounts, or share personal information to access its features.
 
 ## Information We Collect
 
-### Language Preference
+### Language and Preference Data
 
-ViramQ stores your language preference to provide content in your chosen language when you revisit the site. The details are:
+To deliver reminders and content in your chosen language or settings, ViramQ stores minimal preferences on your device:
 
-- **Local Storage:** Your selected language code (such as "en", "hi", or "te") is stored in your browser's local storage.
-- **Cookie:** A cookie named `i18n_redirected` is set by our internationalization system to remember your last language choice.
+- **Local Storage:** Your reminder settings (such as chosen break intervals), and feature preferences are saved in your device's local storage.
 
-This information is stored exclusively on your device. It is **never transmitted to ViramQ servers or shared with third parties**.
+These preferences are stored **only** on your device. They are **never** transmitted to ViramQ servers or external parties.
 
-### Technical Information
-
-When you visit ViramQ, your browser transmits standard technical information required for website delivery, such as:
-
-- Browser type and version
-- Device type and operating system
-- IP address (required for network communication)
-- Visited URLs (pages on ViramQ you visit)
-
-ViramQ does **not** use this technical information for analytics, advertising, or user tracking. We do **not** build user profiles or monitor user journeys across the site.
 
 ## How We Use Your Information
 
-ViramQ uses the information described above only for the following purposes:
+ViramQ uses your local information for the following purposes **only**:
 
-- To display slokas in your selected language
-- To maintain the technical functioning of the website
-- To remember your language preference on future visits
+- Display content, reminders, and features in your selected language and preferences
+- Support the technical functioning of the website and app
+- Remember your language and break preferences for your next visit
 
 We do **not**:
 
-- Collect, process, or analyze personal or sensitive information
-- Use tracking or analytics tools (such as Google Analytics)
-- Send any marketing communications
-- Share data with advertisers or third parties
+- Collect, process, or analyze personal or sensitive data
+- Use analytics, marketing trackers, or advertising tools
+- Send marketing communications
+- Share data with third parties or advertisers
 
-## Cookies and Local Storage
-
-Cookies and browser local storage are used solely for essential website operation—specifically, to save your language preference. If you disable or clear cookies/local storage in your browser, your preference will not be remembered and you will have to reselect your language each visit.
 
 ## Third-Party Services
 
-ViramQ may link to external sites (e.g., to resources, references, or community platforms), but does not use third-party services (like social media widgets or analytics) that collect user data. We are not responsible for the privacy practices of third-party websites. Please refer to their privacy policies if you visit those sites.
+ViramQ may include links to external resources for your benefit (such as wellness guides or community platforms). However, we do **not** embed third-party services (like social media widgets or analytics) that could collect or process your data. We are not responsible for the privacy practices of linked external sites; please review their privacy policies if you follow those links.
 
 ## Data Security
 
-ViramQ does not store user data on its servers. All preference data remains on your device. While we take reasonable steps to ensure technical security of the site, no system is 100% secure due to the nature of the internet.
+ViramQ does not store your preference data on our servers. All reminder settings and personal preferences stay on your device. While we take reasonable steps to ensure the technical security of ViramQ, please be aware that no online service can be 100% secure.
 
 ## Your Rights
 
-You have the following rights when using ViramQ:
+When using ViramQ, you have complete control over your preferences:
 
-- You can clear your local storage and cookies at any time, which will remove your language selection.
-- You can change your language selection as often as you wish.
-- You can use ViramQ without storing settings, but the language selection will not persist.
+- You may clear your local storage and cookies at any time, erasing your language and reminder settings.
+- You may adjust or disable your break and notification preferences as often as you wish.
+- You can use ViramQ without storing any settings, but preferences such as language and intervals will not persist between visits.
 
-Because we do **not** collect personal information, there is no personal data to request, download, or delete from our servers.
+Since we do **not** collect or retain personal information, there is no personal data to request, download, or delete from ViramQ.
 
-## Children's Privacy
+## Children’s Privacy
 
-ViramQ is designed for audiences of all ages. We do not knowingly collect personal information from children or from any visitors.
+ViramQ is suitable for all ages and does not knowingly collect personal information from children or any users.
 
 ## Policy Updates
 
-We may revise this Privacy Policy to reflect changes to our practices or for legal reasons. The current version will always be available on this page with its "Last Updated" date.
+We may update this Privacy Policy as features evolve or for legal compliance. The latest version will always be available on this page with its "Last Updated" date.
 
 ## Contact
 
-If you have any questions about this Privacy Policy or privacy practices at ViramQ, please contact us at privacy@viramq.com.
+If you have questions about this Privacy Policy or about privacy at ViramQ, please contact us at privacy@viramq.com.

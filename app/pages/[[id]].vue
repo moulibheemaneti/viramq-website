@@ -6,17 +6,21 @@
 
 <script lang="ts" setup>
 const route = useRoute();
+const id = route.params.id as string;
 
-const policy = ref();
-onMounted(async () => {
+const policy = await queryCollection("policies")
+   .where("id", "=", `policies/policies/${id}.md`)
+   .first();
 
-   const id = route.params.id as string;
+if (!policy) {
+   throw createError({
+      statusCode: 404,
+      statusMessage: 'Page not found',
+      fatal: true
+   });
+}
 
-   policy.value = await queryCollection("policies")
-      .where("id", "=", `policies/policies/${id}.md`)
-      .first();
 
-});
 </script>
 
 <style lang="scss">
