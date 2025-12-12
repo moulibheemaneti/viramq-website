@@ -1,6 +1,6 @@
 # ViramQ
 
-<img src="app/assets/logo.svg">
+<img src="app/assets/images/logo.svg">
 
 “Pause. Breathe. Recharge.”
 
