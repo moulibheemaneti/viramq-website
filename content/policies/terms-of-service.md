@@ -10,7 +10,7 @@ lang: en
 
 ## Acceptance of Terms
 
-By accessing or using ViramQ, you agree to these Terms of Service as well as our [Privacy Policy](/policies/privacy-policy). If you do not agree with any part of these terms, please do not use ViramQ.
+By accessing or using ViramQ, you agree to these Terms of Service as well as our [Privacy Policy](/privacy-policy). If you do not agree with any part of these terms, please do not use ViramQ.
 
 ## Description of Service
 
@@ -30,7 +30,7 @@ Violation of these terms may result in suspension or termination of your access 
 
 ## Privacy and Data Usage
 
-ViramQ values your privacy. As detailed in our [Privacy Policy](/policies/privacy-policy):
+ViramQ values your privacy. As detailed in our [Privacy Policy](/privacy-policy):
 
 - You are **not** required to create an account or provide personal information to use ViramQ.
 - Your preferences (such as language and reminder settings) are stored **only** on your device, using local storage. No personal or sensitive data is collected, stored, or shared with third parties or ViramQ servers.
